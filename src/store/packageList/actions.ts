@@ -18,7 +18,9 @@ function parseDependencies(s:string|null): string[] {
             element = element.trimStart();
             let p:number = element.indexOf(" ");
             let s2:string = p > -1 ? element.substring(0, p) : element;
-            rs.push(s2);
+            if (!rs.includes(s2)){
+                rs.push(s2);
+            }
         });
     }
     return rs;
