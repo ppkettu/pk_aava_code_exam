@@ -8,13 +8,13 @@
 
 ## Step 2a: Run the static version
 
-### cd pk_aava_code_exam.git
+### cd pk_aava_code_exam
 ### serve -s build
 
 (ctrl+C when done)
 
 ## Step 2b: Development build
 
-### cd pk_aava_code_exam.git
+### cd pk_aava_code_exam
 ### npm i
 ### npm start
